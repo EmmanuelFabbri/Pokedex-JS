@@ -1,0 +1,49 @@
+body {
+  background-image: url(../images/pokedexBackground.png);
+  background-image: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+form {
+  width: 200px;
+  margin: 20px auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+}
+
+.card_pokemon {
+  position: relative;
+  height: fit-content;
+  font-family: "Roboto Mono", monospace;
+  max-width: 300px;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: rgb(10, 10, 10);
+  border: 1px solid black;
+}
+
+.pokemon_img_container {
+  position: relative;
+  width: 180px;
+  margin: 10px auto;
+}
+
+.pokemon_stats div {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.pokemon_img {
+  width: 180px;
+  border-radius: 100%;
+}
